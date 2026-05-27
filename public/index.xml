@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>我的个人网站</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on 我的个人网站</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>快速开始</title>
+				<link>http://localhost:1313/docs/getting-started/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/docs/getting-started/</guid>
+				<description>&lt;h2 id=&#34;欢迎&#34;&gt;欢迎 &lt;a href=&#34;#%e6%ac%a2%e8%bf%8e&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;这是基于 &lt;a href=&#34;https://lotusdocs.dev&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;Lotus Docs&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; 主题搭建的个人技术站点。&lt;/p&gt;&#xA;&lt;h2 id=&#34;内容结构&#34;&gt;内容结构 &lt;a href=&#34;#%e5%86%85%e5%ae%b9%e7%bb%93%e6%9e%84&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;栏目&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;内容&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;文档&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;技术笔记、学习整理、项目文档&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;博客&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;深度技术文章、踩坑经验&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;关于&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;个人介绍与联系方式&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;技术栈&#34;&gt;技术栈 &lt;a href=&#34;#%e6%8a%80%e6%9c%af%e6%a0%88&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; v0.162（Extended）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Lotus Docs&lt;/strong&gt; 主题&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloudflare Pages&lt;/strong&gt; 自动部署&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;本地开发&#34;&gt;本地开发 &lt;a href=&#34;#%e6%9c%ac%e5%9c%b0%e5%bc%80%e5%8f%91&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;&#xA;  &lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;7ce42ca&#34; class=&#34;language-bash &#34;&gt;&#xA;  &lt;code&gt;hugo server -D&#xA;# 访问 http://localhost:1313/docs/&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>第一篇博客</title>
+				<link>http://localhost:1313/blog/hello-world/</link>
+				<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/hello-world/</guid>
+				<description>&lt;h2 id=&#34;为什么选-hugo&#34;&gt;为什么选 Hugo&lt;/h2&gt;&#xA;&lt;p&gt;速度快，Markdown 写作，Git 管理，Cloudflare Pages 免费部署——这四点让我选择了 Hugo 而不是 WordPress 或 Hexo。&lt;/p&gt;&#xA;&lt;h2 id=&#34;搭建过程&#34;&gt;搭建过程&lt;/h2&gt;&#xA;&lt;p&gt;整个搭建过程不超过一小时：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;hugo new site .&lt;/code&gt; 初始化&lt;/li&gt;&#xA;&lt;li&gt;Hugo Module 方式引入 Lotus Docs 主题&lt;/li&gt;&#xA;&lt;li&gt;配置 &lt;code&gt;hugo.toml&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;接入 Cloudflare Pages 自动部署&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;下一步&#34;&gt;下一步&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置自定义域名&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 写第一篇技术文章&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 接入 Giscus 评论系统&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

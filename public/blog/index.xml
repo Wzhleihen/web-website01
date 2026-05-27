@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>博客 on 我的个人网站</title>
+		<link>http://localhost:1313/blog/</link>
+		<description>Recent content in 博客 on 我的个人网站</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>第一篇博客</title>
+				<link>http://localhost:1313/blog/hello-world/</link>
+				<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/hello-world/</guid>
+				<description>&lt;h2 id=&#34;为什么选-hugo&#34;&gt;为什么选 Hugo&lt;/h2&gt;&#xA;&lt;p&gt;速度快，Markdown 写作，Git 管理，Cloudflare Pages 免费部署——这四点让我选择了 Hugo 而不是 WordPress 或 Hexo。&lt;/p&gt;&#xA;&lt;h2 id=&#34;搭建过程&#34;&gt;搭建过程&lt;/h2&gt;&#xA;&lt;p&gt;整个搭建过程不超过一小时：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;hugo new site .&lt;/code&gt; 初始化&lt;/li&gt;&#xA;&lt;li&gt;Hugo Module 方式引入 Lotus Docs 主题&lt;/li&gt;&#xA;&lt;li&gt;配置 &lt;code&gt;hugo.toml&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;接入 Cloudflare Pages 自动部署&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;下一步&#34;&gt;下一步&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置自定义域名&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 写第一篇技术文章&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 接入 Giscus 评论系统&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>
