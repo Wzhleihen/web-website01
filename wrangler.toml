@@ -4,6 +4,3 @@ compatibility_flags = ["nodejs_compat"]
 
 [assets]
 directory = "public"
-
-[build]
-command = ""
