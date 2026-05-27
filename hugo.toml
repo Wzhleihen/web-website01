@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"   # 上线后替换为你的真实域名
+baseURL = "https://dev.hymsgook.qzz.io/"
 locale = "zh-CN"
 contentDir = "content"
 enableEmoji = true
