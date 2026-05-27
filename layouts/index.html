@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+
+      <h1 class="display-5 fw-bold mb-3">你好，我是一名开发者 👋</h1>
+      <p class="lead text-muted mb-5">
+        正在学习 Python / Flask / Web 开发，这里记录我的技术笔记、踩坑经历和项目作品。
+      </p>
+
+      <div class="row g-4 mb-5">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">📚 文档</h5>
+              <p class="card-text text-muted">技术笔记、学习整理、项目文档</p>
+              <a href="/docs/" class="btn btn-sm btn-outline-primary">浏览文档</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">✍️ 博客</h5>
+              <p class="card-text text-muted">深度技术文章、踩坑经验分享</p>
+              <a href="/docs/blog/" class="btn btn-sm btn-outline-primary">阅读博客</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">👤 关于</h5>
+              <p class="card-text text-muted">个人介绍与联系方式</p>
+              <a href="/about/" class="btn btn-sm btn-outline-primary">了解更多</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="h4 mb-3">最新文章</h2>
+      {{ $posts := where (where .Site.Pages "Type" "docs") "Section" "docs" }}
+      {{ $posts = where $posts "Params.draft" "ne" true }}
+      {{ range first 5 ($posts.ByDate.Reverse) }}
+      {{ if not .IsSection }}
+      <div class="d-flex justify-content-between align-items-start mb-3 pb-3 border-bottom">
+        <div>
+          <a href="{{ .RelPermalink }}" class="text-decoration-none fw-semibold">{{ .Title }}</a>
+          {{ with .Description }}<p class="text-muted small mb-0">{{ . }}</p>{{ end }}
+        </div>
+        <span class="text-muted small text-nowrap ms-3">{{ .Date.Format "2006-01-02" }}</span>
+      </div>
+      {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+{{ end }}
